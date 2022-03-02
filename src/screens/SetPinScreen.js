@@ -1,14 +1,14 @@
 import React from "react";
 import {View, Text, StyleSheet} from "react-native";
 
-const ResetpasswordScreen = () => {
+const SetPinScreen = () => {
     return (
         <View>
-            <Text> ResetpasswordScreen </Text>
+            <Text> SetPinScreen </Text>
         </View>
     )
 }
 
 const styles = StyleSheet.create({});
 
-export default ResetpasswordScreen;
+export default SetPinScreen;
