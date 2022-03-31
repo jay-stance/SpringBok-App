@@ -1,0 +1,23 @@
+.nav_element {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: var(--secondary_bg);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-left: 7px solid var(--secondary_bg);
+    cursor: pointer
+}
+
+.icon {
+    margin-right: 10px;
+    color: #a5a4bf
+}
+
+.active {
+    border-left: 7px solid var(--secondary_bg_hlight)
+}
+
+.active .icon {
+    color: var(--secondary_bg_hlight)
+}
